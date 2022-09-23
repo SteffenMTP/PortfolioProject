@@ -1,0 +1,67 @@
+
+body {
+  background-color: #F2E530;
+  min-height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+#backgroundImage {
+  // height: 1920px;
+  // width: 1080px;
+  height: 100vh;
+  width: 100vw;
+  // background-image: cover;
+}
+
+#dashboard{
+  width: 210px;
+  position: absolute;
+  top: 68%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: space-between;
+}
+
+#speedometer{
+  width: 60px;
+  height: 5px;
+  transform-origin: right;
+  rotate: -40deg;
+  background-color: red;
+
+}
+
+#rpmMeter{
+  width: 60px;
+  height: 5px;
+  transform-origin: right;
+  rotate: -40deg;
+  background-color: red;
+
+}
+
+#modalContainer {
+  position: absolute;
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  z-index: 101;
+  opacity: 0;
+}
+
+#closeModal {
+  position: relative;
+  display: none;
+  opacity: 0;
+  float: right;
+  width: 30px;
+  height: 30px;
+  margin: calc(0.3em + 0.3vw);
+  z-index: 102;
+  &:hover {
+    cursor: pointer;
+  }
+}

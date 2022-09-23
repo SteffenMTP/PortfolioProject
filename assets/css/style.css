@@ -1,0 +1,47 @@
+body {
+  background-color: #F2E530;
+  min-height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+#dashboard {
+  width: 200px;
+  position: absolute;
+  top: 60%;
+  left: 30%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#speedometer {
+  width: 80px;
+  height: 10px;
+  background-color: red;
+}
+
+#rpmMeter {
+  width: 80px;
+  height: 10px;
+  background-color: red;
+}
+
+#ninja {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+#ninja img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+  object-fit: cover;
+}/*# sourceMappingURL=style.css.map */
