@@ -5,8 +5,6 @@ import "../assets/css/style.scss";
 
 (function () {
 
-  console.log("starting the cool->app");
-
   let init = new Initialize();
 
 })();

@@ -5,7 +5,7 @@ class modal {
 
     constructor(){
 
-        this.info = data;
+        this.data = data;
 
         this.modalContainer = document.createElement('div');
         this.modalContainer.id = "modalContainer";
@@ -15,6 +15,13 @@ class modal {
         this.closeModal.id = "closeModal";
         document.body.appendChild(this.closeModal);
         this.closeModal.innerHTML = `<img src='${svg}'/>`;
+
+        let closemo = document.querySelector("#closeModal");
+
+        closemo.addEventListener("click", ()=>{
+            document.querySelector("#closeModal").style.display = "none";
+            document.querySelector("#modalContainer").style.display = "none";
+        })
 
 
 

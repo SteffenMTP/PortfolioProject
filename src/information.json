@@ -1,16 +1,37 @@
 {
-    "TextInfo-1": "Text Example 1",
-    "Text1": "Text",
+    
+    "Assets": [
+    "./assets/images/start.png",
+    "./assets/images/Test1.jpg",
+    "./assets/images/CitySign.png",
+    "./assets/images/Radio.png",
+    "./assets/images/Reversemirror.png"
+    ],
 
 
+    "BoxArray": [
+    "./assets/images/Box1.png",
+    "./assets/images/Box2.png",
+    "./assets/images/Box3.png"
+    ],
 
-
-    "TextInfo-2": "Text Example 2",
-    "Text2": "Text"
-
-
-
-
-
+    "TextInfo": [
+        {
+            "Future": "Dette er en test tekst til at se"
+        },
+        {
+            "Past": "Dette er et andet eksempel"
+        },
+        {
+            "RandomInfo1": "Test1"
+        },
+        {
+            "RandomInfo2": "Test2"
+        },
+        {
+            "RandomInfo3": "Test3"
+        }
+    ]
+    
 
 }

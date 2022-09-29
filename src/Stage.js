@@ -6,7 +6,7 @@ class Stage {
 
         this.targetWidth = 1920; //1700
         this.targetHeight = 1080; //768
-        this.targetCenter = 2080; //1024
+        this.targetCenter = 2080; //2080
 
         this.appWidth = window.innerWidth;
         this.appHeight = window.innerHeight;
