@@ -218,11 +218,14 @@ export default class Initialize {
         CitySign.on("click", () => {
           document.querySelector("#modalContainer").style.display = "block";
 
-
           gsap.to("#modalContainer", {
             duration: 1,
             opacity: .8,
             onComplete: () => {
+
+              let FutureText = PIXI.Text;
+              let FTOne = new PIXI.Text()
+
               document.querySelector("#closeModal").style.display = "block";
               gsap.to("#closeModal", {
                 duration: 1,
